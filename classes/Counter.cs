@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace classes
 {
@@ -34,13 +30,13 @@ namespace classes
         }
 
         // Методы
-        public int generateValue()
+        public void GenerateValue()
             => x += hx;
 
-        public int increaseCounter(int constant)
+        public int IncreaseCounter(int constant)
             => x += constant;
 
-        public void showState()
+        public void ShowState()
             => Console.WriteLine($"Текущее состояние счетчика: {x}");
 
 
